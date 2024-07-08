@@ -1,6 +1,5 @@
 package com.example.homework_2
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
@@ -17,7 +16,7 @@ class MainActivity : ComponentActivity() {
 
         button.setOnClickListener(){
             setContentView(R.layout.activity_2)
-            Toast.makeText(this, R.string.string_hello_world, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.hello_world, Toast.LENGTH_SHORT).show()
         }
     }
 }
